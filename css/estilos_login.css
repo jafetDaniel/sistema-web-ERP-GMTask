@@ -1,0 +1,143 @@
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("../images/camaro.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.login { /*section*/
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+.login_box { /*div de todo el section*/
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    top: 60%; /*separacion de arriba*/
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+}
+.login_box .left{
+  width: 90%;
+  height: 100%;
+  padding: 25px 25px;
+}
+.login_box .right{
+  width: 90%;
+  height: 100%  
+}
+.left .contact{
+  	display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 73%;
+    margin: auto;
+}
+.left h3{
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+}
+.left input {
+    border: none;
+    width: 80%;
+    margin: 15px 0px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
+    padding: 7px 9px;
+    width: 100%;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgba(255,255,255,0.07);
+}
+::placeholder{
+  color: #e5e5e5;
+}
+.submit{
+  border: none;
+  padding: 15px 70px;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  background: rgba(5, 126, 196, 0.847);
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 180px;
+  font-size: 20px;
+}
+.left{
+  background-color: rgba(255,255,255,0.13);
+  backdrop-filter: blur(10px); /*borroso*/
+}
+.right {
+	background: rgba(5, 126, 196, 0.847);
+	color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  backdrop-filter: blur(10px); /*borroso*/
+}
+.right .right-text{
+  height: 70%;
+  position: relative;
+  transform: translate(0%, 45%);
+}
+.right-text h2{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 500;
+}
+.right-text h5{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+.small{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+footer{
+  height: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 60px;
+}
+h3{
+  color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 768px){
+  .right{
+    display: none;
+  }
+  .left{
+    width: 100%;
+  }
+  .left form{
+    width: 95%;
+    padding: 0 1em;
+  }
+}
+
+@media (max-width: 516px){
+  form{
+    width: 100%;
+  }
+}

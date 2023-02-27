@@ -1,0 +1,10 @@
+#saludo{
+    text-align: center;
+}
+#fecha{
+    text-align: center;
+}
+#datos{
+    border: solid #000; 
+    width: 600px;
+}
