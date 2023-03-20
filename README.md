@@ -13,13 +13,12 @@ Imágenes ilustrativas:
 <img src="images/img_readme/img_ilustrativa2.png">
 <img src="images/img_readme/img_ilustrativa3.png">
 <img src="images/img_readme/img_ilustrativa4.png">
+<img src="images/img_readme/img_ilustrativa4.1.png">
+<img src="images/img_readme/img_ilustrativa4.2.png">
 <img src="images/img_readme/img_ilustrativa5.png">
 <img src="images/img_readme/img_ilustrativa5.1.png">
 <img src="images/img_readme/img_ilustrativa5.2.png">
 <img src="images/img_readme/img_ilustrativa6.png">
-<img src="images/img_readme/img_ilustrativa6.1.png">
-<img src="images/img_readme/img_ilustrativa6.2.png">
 <img src="images/img_readme/img_ilustrativa7.png">
 <img src="images/img_readme/img_ilustrativa8.png">
 <img src="images/img_readme/img_ilustrativa9.png">
-<img src="images/img_readme/img_ilustrativa10.png">
