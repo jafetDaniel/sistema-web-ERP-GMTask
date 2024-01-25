@@ -7,7 +7,7 @@ Nombre:
 Tecnologías:
 <ul>
   <li>Sistema creado con el lenguaje PHP</li>
-  <li>HTML, CSS, JS, Bootstrap, JQuery, Ajax/li>
+  <li>HTML, CSS, JS, Bootstrap, JQuery, Ajax</li>
   <li>Base de datos MySQL</li>
 </ul>
 
